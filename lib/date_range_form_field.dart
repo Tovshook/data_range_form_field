@@ -70,7 +70,7 @@ class DateRangeField extends FormField<DateTimeRange> {
                         initialDateRange: initialValue,
                         firstDate: firstDate ?? DateTime.now(),
                         lastDate: lastDate ?? DateTime(DateTime.now().year + 5),
-                        helpText: helpText ?? 'Select Date Range',
+                        helpText: 'Select Date Range',
                         cancelText: cancelText ?? 'CANCEL',
                         confirmText: confirmText ?? 'OK',
                         saveText: saveText ?? 'SAVE',
@@ -80,7 +80,8 @@ class DateRangeField extends FormField<DateTimeRange> {
                             errorInvalidRangeText ?? 'Invalid range.',
                         fieldStartHintText: fieldStartHintText ?? 'Start Date',
                         fieldEndHintText: fieldEndHintText ?? 'End Date',
-                        fieldStartLabelText: fieldStartLabelText ?? 'Start Date',
+                        fieldStartLabelText:
+                            fieldStartLabelText ?? 'Start Date',
                         fieldEndLabelText: fieldEndLabelText ?? 'End Date') ??
                     state.value;
                 if (picked != state.value) {
