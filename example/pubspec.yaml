@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  date_range_form_field:
+  daterange:
     path: ../
 
 
