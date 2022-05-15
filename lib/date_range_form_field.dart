@@ -70,10 +70,10 @@ class DateRangeField extends FormField<DateTimeRange> {
                         initialDateRange: initialValue,
                         firstDate: firstDate ?? DateTime.now(),
                         lastDate: lastDate ?? DateTime(DateTime.now().year + 5),
-                        helpText: 'Select Date Range',
+                        helpText: helpText ?? 'Select Date Range',
                         cancelText: cancelText ?? 'CANCEL',
                         confirmText: confirmText ?? 'OK',
-                        saveText: saveText ?? 'Hadgalah',
+                        saveText: saveText ?? 'SAVE',
                         errorFormatText: errorFormatText ?? 'Invalid format.',
                         errorInvalidText: errorInvalidText ?? 'Out of range.',
                         errorInvalidRangeText:
