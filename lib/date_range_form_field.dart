@@ -73,7 +73,7 @@ class DateRangeField extends FormField<DateTimeRange> {
                         helpText: 'Select Date Range',
                         cancelText: cancelText ?? 'CANCEL',
                         confirmText: confirmText ?? 'OK',
-                        saveText: saveText ?? 'SAVE',
+                        saveText: saveText ?? 'Hadgalah',
                         errorFormatText: errorFormatText ?? 'Invalid format.',
                         errorInvalidText: errorInvalidText ?? 'Out of range.',
                         errorInvalidRangeText:
